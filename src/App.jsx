@@ -78,7 +78,7 @@ export default function App() {
 
   // --- 3. 管理功能 (雲端寫入) ---
   const handleLogin = () => {
-    if (adminPassword === "1234") { // ⚠️ 您可以自行更改老師密碼
+    if (adminPassword === "Hles3184") { // ⚠️ 您可以自行更改老師密碼
       setIsTeacher(true);
       setView('dashboard');
       showToast('🔑 老師身分驗證成功');
